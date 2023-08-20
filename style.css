@@ -13,13 +13,13 @@ body {
 
 .child {
     background-color: dimgray;
-    width: 50%;
+    width: 65%;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     display: flex; /* Add this to enable flex properties */
     flex-direction: column; /* Stack child elements vertically */
-    height: 55%;
+    height: 75%;
     padding-bottom: 20px;
 }
 
