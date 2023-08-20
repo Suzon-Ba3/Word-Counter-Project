@@ -1,0 +1,78 @@
+body {
+    background-color: aqua;
+    height: 100vh; /* Set the body's height to 100% of the viewport height */
+    margin: 0; /* Remove default margin to prevent unwanted space */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%; /* Make sure .main takes up the full viewport height */
+}
+
+.child {
+    background-color: dimgray;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex; /* Add this to enable flex properties */
+    flex-direction: column; /* Stack child elements vertically */
+    height: 55%;
+    padding-bottom: 20px;
+}
+
+.heading h2 {
+    text-align: center;
+    color: white;
+}
+
+.counter {
+    background-color: white;
+    width: 45%;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.counter-1 {
+    margin-left: 7px;
+}
+
+.counter-3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-box {
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 65px;
+    margin-top: 10px;
+}
+
+.input-box textarea {
+    border-radius: 7px;
+    height: 300px;
+}
+
+.credit p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgba(0, 47, 255, 0.459);
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
