@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-image: url(images/typewriter-5626841_640.jpg);
     height: 100vh; /* Set the body's height to 100% of the viewport height */
     margin: 0; /* Remove default margin to prevent unwanted space */
 }
@@ -70,6 +70,7 @@ body {
     font-size: 21px;
     font-weight: bold;
     margin-top: 0px;
+    color: white;
 }
 
 .btn {
